@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { Link, useParams } from 'react-router-dom';
 import { projectsData } from './data';
 
 const ProjectDetails = () => {
