@@ -28,7 +28,7 @@ const ProjectDetails = () => {
   if (!project) return <div className="container mx-auto p-4 text-center">Project not found</div>;
 
   return (
-    <div className="container mx-auto p-4 bg-gray-100 min-h-screen">
+    <div className="mx-auto p-4 bg-gray-100 min-h-screen">
       <div className="bg-white rounded-xl overflow-hidden shadow-lg">
         <div className="relative h-96">
           <img src={project.image} alt={project.name} className="w-full h-full object-cover" />

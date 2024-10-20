@@ -45,3 +45,10 @@ export const projectsData = [
     description: "/projects/1/description.md"
   },
   ];
+
+ export const expertiseData = [
+    { icon: "📊", title: "Strategy & Direction", description: "Brief description of your strategy skills" },
+    { icon: "🎨", title: "Branding & Logo", description: "Brief description of your branding expertise" },
+    { icon: "🖥️", title: "UI & UX Design", description: "Brief description of your UI/UX design skills" },
+    { icon: "🚀", title: "Webflow Development", description: "Brief description of your Webflow development skills" },
+  ];
