@@ -15,5 +15,3 @@ This is a markdown description of Project Alpha.
 - MongoDB
 
 ...
-
-```

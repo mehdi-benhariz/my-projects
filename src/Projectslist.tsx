@@ -18,7 +18,6 @@ const ProjectList = () => {
             </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors duration-300">{project.name}</h2>
-              <p className="text-sm text-gray-700 mb-4 line-clamp-2">{project.description}</p>
               <div className="flex justify-between items-center">
                 <Link 
                   to={`/project/${project.id}`} 
