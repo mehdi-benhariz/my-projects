@@ -46,9 +46,9 @@ export const projectsData = [
   },
   ];
 
- export const expertiseData = [
-    { icon: "📊", title: "Strategy & Direction", description: "Brief description of your strategy skills" },
-    { icon: "🎨", title: "Branding & Logo", description: "Brief description of your branding expertise" },
-    { icon: "🖥️", title: "UI & UX Design", description: "Brief description of your UI/UX design skills" },
-    { icon: "🚀", title: "Webflow Development", description: "Brief description of your Webflow development skills" },
-  ];
+export const expertiseData = [
+  { icon: "📊", title: "Strategy & Direction", description: "Lead teams and manage projects at different skill levels" },
+  { icon: "🖥️", title: "Backend Development", description: "Develop server-side logic and APIs" },
+  { icon: "🔧", title: "DevOps", description: "Implement and maintain CI/CD pipelines and infrastructure" },
+  { icon: "🏛️", title: "Architecting and Consulting", description: "Design scalable and efficient software architectures" },
+];

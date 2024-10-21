@@ -7,8 +7,12 @@ const ProjectList = () => {
     
     <div className="mx-auto bg-gray-100 min-h-screen w-full">
       <header className="fixed flex h-16  bg-gray-100 justify-between items-center py-6 px-4 shadow-xl p-2 w-full mx-auto" style={{ zIndex: 99 }}>
-        <div className="text-2xl font-bold">MEHDI BEN HARIZ</div>
-        <button className="bg-transparent border border-purple-600 text-purple-600 py-2 px-4 rounded hover:bg-purple-600 hover:text-white transition duration-300">
+        
+      <div className="flex items-center">
+    <img src="Logo.png" alt="Logo" className="h-8 w-32 mr-2" />
+    <div className="text-2xl font-bold">MEHDI BEN HARIZ</div>
+  </div>        
+        <button className="bg-transparent border border-purple-600 text-purpl</svg>e-600 py-2 px-4 rounded hover:bg-purple-600 hover:text-white transition duration-300">
           Contact Me
         </button>
       </header>
@@ -88,8 +92,8 @@ const ProjectList = () => {
       </div>
       <div className='py-6'>
 
-        <h2 className="text-3xl font-bold mb-8 text-center">Contact me</h2>
-        <form className="max-w-lg mx-auto">
+        <h2 className="text-3xl font-bold mb-8 text-center ">Contact me</h2>
+        <form className="max-w-xl mx-auto">
           <div className="grid grid-cols-2 gap-4 mb-4">
             <input type="text" placeholder="First Name" className="w-full px-3 py-2 border rounded" />
             <input type="text" placeholder="Last Name" className="w-full px-3 py-2 border rounded" />
