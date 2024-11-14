@@ -8,14 +8,23 @@ export const projectsData = [
       "/projects/1/1.jpg",
       description: "/projects/1/description.md"
     },
+    {
+      id: 2,
+      name: "GitOps Demo",
+      repo: "https://github.com/mehdi-benhariz/demo-gitops",
+      link: "https://github.com/mehdi-benhariz/demo-gitops",
+      image: 
+        "/projects/2/1.svg",
+        description: "/projects/2/description.md"
+      },
   {
-    id: 2,
+    id: 6,
     name: "Chkobba -Card Game",
     repo: "https://github.com/user/project-beta",
     link: "https://project-beta.com",
     image: 
-    "/projects/2/1.png",
-      description: "/projects/1/description.md"
+    "/projects/6/1.png",
+      description: "/projects/6/description.md"
   },
   {
     id: 3,
